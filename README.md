@@ -1,4 +1,5 @@
 #### Задание. Основы Python
+- примеры и материалы: https://miro.com/app/board/uXjVORmoCO0=/?invite_link_id=993701359201
 <table>
 <tbody>
   <tr>
