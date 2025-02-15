@@ -1,0 +1,1 @@
+python.exe Zadachi678.py
