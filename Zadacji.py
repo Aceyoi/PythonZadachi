@@ -9,14 +9,6 @@ def zad10():
     else:
         t = (2*h/9.8) ** (1/2)
         print(str(f"Время равно {t:.2f} секунд"))
-    # Проверка
-    h1 = 10
-    h1 = (2 * h / 9.8) ** (1 / 2)
-    assert (int(h1) == 1)
-
-    h1 = -1
-    assert (h1 == -1)
-
     pass
 #
 #
@@ -35,17 +27,6 @@ def zad35():
     else:
         max = (max2 ** 2) + 1
     print(str(f"Максимальное число равняется {max}"))
-
-    # Проверка
-    x = 5
-    y = 5
-    z = 2
-    max1 = x + y + (z/2)
-    max2 = x * y * z
-    assert(max1 < max2)
-    max = (max2 ** 2) + 1
-    assert(max == 2501.0)
-
     pass
 #
 #
@@ -87,13 +68,13 @@ def zad115():
     pass
 #
 #
-zad = input("Введите номер задачи ")
+zadacha = input("Введите номер задачи ")
 
-if zad == "10":
+if zadacha == "10":
     zad10()
-elif zad == "35":
+elif zadacha == "35":
     zad35()
-elif zad == "73":
+elif zadacha == "73":
     zad73()
-elif zad == "115":
+elif zadacha == "115":
     zad115()
